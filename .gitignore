@@ -1,0 +1,30 @@
+# 构建产物
+.build*/
+dist/
+*.app
+
+# 本机配置与运行时数据
+.dsh/
+apikey.bin
+apikey*
+*.sqlite3
+*.log
+.env
+
+# 签名材料（绝不能提交）
+Resources/signing/
+*.p12
+*.key
+*.pem
+
+# 生成的临时图片
+image/
+
+# 大体积词典（本地朗读模型相关，按需自行下载）
+lexicon-en-us.txt
+
+# macOS
+.DS_Store
+
+# 本地工具状态
+.dsh-vision-router/
